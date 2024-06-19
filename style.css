@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./Panthera_tigris_tigris.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+main {
+  padding: 2rem;
+}
+
+.pengisian-data {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 3rem;
+}
+
+.pengisian-data .judul-desc {
+  text-align: center;
+  color: white;
+}
+
+.pengisian-data .judul-desc h1 {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  color: white;
+}
+
+form .name-entry {
+  padding: 0.25rem;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+#submit-button {
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+  background-color: black;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#submit-button:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+.khodam {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5rem;
+}
+
+.khodam .judul-desc {
+  text-align: center;
+  color: white;
+}
+
+.khodam .judul-desc h1 {
+  margin-bottom: 1rem;
+}
+
+.khodam.display-none {
+  display: none;
+}
+
+.khodam.active {
+  display: flex;
+}
+
+.pengisian-data.display-none {
+  display: none;
+}
